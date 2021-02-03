@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../constants.dart';
-
+import 'trading_module.dart';
 import 'header_search_box.dart';
 
 class Body extends StatelessWidget {
@@ -12,6 +12,7 @@ class Body extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           HeaderWithSearchBox(size: size),
+          TradingModule(),
         ],
       ),
     );

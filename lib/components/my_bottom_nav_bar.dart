@@ -22,12 +22,12 @@ class MyBottomNavBar extends StatelessWidget {
           icon: _currentIndex == 0
             ? Image.asset(
               'assets/images/home_actived.png',
-              width: 32.0,
-              height: 28.0,
+              width: 22.0,
+              height: 22.0,
             ) : Image.asset(
                 'assets/images/home.png',
-                width: 32.0,
-                height: 28.0,
+                width: 22.0,
+                height: 22.0,
               )
         ),
         BottomNavigationBarItem(
@@ -35,12 +35,12 @@ class MyBottomNavBar extends StatelessWidget {
           icon: _currentIndex == 1
             ? Image.asset(
             'assets/images/my_actived.png',
-            width: 32.0,
-            height: 32.0,
+            width: 22.0,
+            height: 22.0,
           ): Image.asset(
             'assets/images/my.png',
-            width: 32.0,
-            height: 32.0,
+            width: 22.0,
+            height: 22.0,
           )
         )
       ],
